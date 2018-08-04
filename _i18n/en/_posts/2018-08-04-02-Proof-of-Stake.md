@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Write your article with Kramdown"
-date:   2017-08-07 14:03:01 +0200
+title:  "02. Proof of Stake"
+date:   2018-08-04 14:00:00 +0200
 categories: jekyll documentation
 author: Sandoche ADITTANE
 ---
