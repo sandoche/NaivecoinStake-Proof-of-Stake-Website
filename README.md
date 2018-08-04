@@ -5,7 +5,7 @@
 * Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
 ## Todo
-- [ ] Try naivecoin UI
+- [x] Try naivecoin UI
 - [ ] Remove useless content
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
@@ -17,6 +17,7 @@
 - [ ] Update naivecoin's Readme
 - [ ] Update copyright notice
 - [ ] Change icon
+- [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and license
 - [ ] Update configs, package.json, and config-pwa
 - [ ] Add Analytics
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
