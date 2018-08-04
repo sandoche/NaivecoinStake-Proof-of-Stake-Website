@@ -7,9 +7,9 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'NaivecoinStake',
+      short_name: 'NaivecoinStake',
+      description: 'A tutorial for building a Proof of Stake cryptocurrency',
       orientation: "portrait",
       display: "standalone",
       start_url: "/",

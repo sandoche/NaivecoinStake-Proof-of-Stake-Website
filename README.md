@@ -11,13 +11,14 @@
 - [ ] Add paragraph about the changed content
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
-- [ ] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
-- [ ] Set up domain name
+- [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
+- [ ] Set up domain name (naivecoinstake.learn.uno)
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
 - [ ] Update copyright notice
-- [ ] Change icon
 - [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and license
-- [ ] Update configs, package.json, and config-pwa
+- [x] Update configs, package.json, and config-pwa
 - [ ] Add Analytics
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
+- [ ] Add to google webmaster tools
+- [ ] Add Learn.uno contact widget
