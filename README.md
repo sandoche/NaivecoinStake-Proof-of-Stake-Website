@@ -11,7 +11,9 @@
 - [ ] Add paragraph about the changed content
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
-- [ ] Do the about page
+- [ ] Remove about page?
+- [ ] Add my name in footer
+- [ ] Add respository links to the navbar
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
 - [ ] Set up domain name (naivecoinstake.learn.uno)
 - [ ] Delete useless branches of naivecoin and rename repository
