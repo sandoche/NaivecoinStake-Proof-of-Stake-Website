@@ -7,11 +7,12 @@
 ## Todo
 - [x] Try naivecoin UI
 - [x] Remove useless content
+- [ ] Set up basic templates
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
-- [ ] Remove about page?
+- [ ] Fill the page about and add donation informations
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
