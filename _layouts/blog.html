@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="blog">
+
+  <div class="blog__intro">
+    {{ content }}
+  </div>
+
   {% for post in site.posts %}
     <article class="blog__post">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
