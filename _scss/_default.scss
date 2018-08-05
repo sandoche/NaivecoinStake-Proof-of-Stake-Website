@@ -256,6 +256,9 @@ h1, h2, h3, h4 {
   font-weight: $font-md;
   line-height: 1.5;
 
+  h2 {
+    margin-top: 32px;
+  }
 
   &__container {
     padding: 0 $container-padding;
