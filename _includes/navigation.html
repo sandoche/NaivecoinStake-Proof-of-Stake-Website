@@ -3,7 +3,10 @@
     {% assign page_paths = site.navigation_pages | default: default_paths %}
     <div class="navigation__branding">
       <a class="navigation__logo" href="{{ "/" | relative_url }}"><img src="{{ "/assets/images/icon.png" | relative_url }}" class="navigation__logo-img" alt=""></a>
-      <a class="navigation__title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <div>
+        <a class="navigation__title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        <p class="navigation__description">{{ site.description }}</p>
+      </div>
     </div>
     <div class="navigation__links">
       {% if page_paths %}

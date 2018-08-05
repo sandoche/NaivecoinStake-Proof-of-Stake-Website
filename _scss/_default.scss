@@ -3,17 +3,23 @@
 $container-width: 1200px;
 $container-padding: 30px;
 
-$primary-color: #C8385A;
+$primary-color: #616bf2;
 $text-color: #333;
-$link-color: #7F7F7F;
+$link-color: $primary-color;
+$grey-color: #7F7F7F;
+$background-color: #f4f7fe;
+$grey-color: #626a8f;
+$light-grey-color: #a4a5c1;
 
 $font-xl: 58px;
+$font-lg: 32px;
 $font-md: 22px;
 $font-sm: 18px;
 $font-xs: 16px;
 
 $system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $primary-font-family: $system-font-family;
+$secondary-font-family: 'Heebo', sans-serif;
 
 
 
@@ -45,10 +51,16 @@ a {
   color: $link-color;
   text-decoration: none;
   font-size: $font-sm;
+  font-family: $secondary-font-family;
+  font-weight: 700;
 
   &:hover {
-    color: $primary-color;
+    color: $grey-color;
   }
+}
+
+h1, h2, h3, h4 {
+  font-family: $secondary-font-family;
 }
 
 
@@ -85,7 +97,7 @@ a {
   margin-top: 10px;
 
   padding-bottom: 10px;
-  border-bottom: 1px solid lighten($link-color, 40%);
+  font-family: $secondary-font-family;
 
   &__branding {
       display: flex;
@@ -96,6 +108,11 @@ a {
     color: $text-color !important;
     font-size: $font-md;
     font-weight: 500;
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
   }
 
   &__logo {
@@ -114,10 +131,10 @@ a {
 
   &__link {
     margin-left: 30px;
-    font-size: $font-xs;
+    font-size: $font-md;
 
     &--active {
-      color: $primary-color;
+      text-decoration: underline;
     }
   }
 
@@ -193,17 +210,26 @@ a {
     width: 100%;
   }
 
-
-  &__link {
-    &:hover {
-      color: $link-color;
-    }
-  }
-
   &__title {
     color: $text-color;
-    font-size: $font-md;
+    font-size: $font-lg;
     padding-top: 0;
+    margin-top: 0;
+  }
+
+  &__link {
+    position: relative;
+    left: 0;
+    transition: all ease .3s;
+
+    &:hover {
+      color: $link-color !important;
+      left: 30px;
+    }
+
+    h2:hover {
+      color: $link-color !important;
+    }
   }
 
   &__excerpt {
@@ -232,7 +258,6 @@ a {
 
 
 .footer {
-  border-top: 1px solid lighten($link-color, 40%);
   padding: 30px 0;
   margin-top: 80px;
 

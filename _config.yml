@@ -8,7 +8,7 @@ email: contact@sandoche.com
 description: A tutorial for building a Proof of Stake cryptocurrency
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://naivecoinstake.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#c0ffee'
+theme_color: '#616bf2'
 twitter_username: sandochee
 github_username:  sandoche
 author: Sandoche Adittane

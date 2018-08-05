@@ -13,7 +13,7 @@ module.exports = Merge(ProdConfig, {
       orientation: "portrait",
       display: "standalone",
       start_url: "/",
-      theme_color: "#c0ffee",
+      theme_color: "#616bf2",
       background_color: "#ffffff",
       icons: [
         {
