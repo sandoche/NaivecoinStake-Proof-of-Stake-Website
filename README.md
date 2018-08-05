@@ -10,6 +10,9 @@
 - [x] Set up basic templates
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
+- [ ] Check consistency and links
+- [ ] Improve style for readabilty
+- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
 - [ ] Fill the page about and add donation informations
