@@ -186,6 +186,14 @@ h1, h2, h3, h4 {
   margin-top: 60px;
 
 
+  &__intro {
+    color: $light-grey-color;
+    font-family: $secondary-font-family;
+    font-size: $font-md;
+    padding: 0 32px;
+    margin-bottom: 64px;
+  }
+
   &__post {
 
     padding: 0 $container-padding;
