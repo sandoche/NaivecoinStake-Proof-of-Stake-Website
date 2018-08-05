@@ -92,6 +92,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   octopress-minify-html
+  rouge
   tzinfo-data
 
 BUNDLED WITH

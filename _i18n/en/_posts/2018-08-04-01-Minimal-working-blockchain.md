@@ -27,7 +27,7 @@ We will start by defining the block structure. Only the most essential propertie
 
 The code for the block structure looks like the following:
 
-```
+``` ts
 class Block {
 
     public index: number;
@@ -51,7 +51,7 @@ The block hash is one of the most important property of the block. The hash is c
 
 We calculate the hash of the block using the following code:
 
-```
+``` ts
 const calculateHash = (index: number, previousHash: string, timestamp: number, data: string): string =>
     CryptoJS.SHA256(index + previousHash + timestamp + data).toString();
 ```
@@ -68,7 +68,7 @@ This is an especially important property when proof-of-work is introduced. The d
 
 ## Genesis block
 Genesis block is the first block in the blockchain. It is the only block that has no previousHash. We will hard code the genesis block to the source code:
-```
+``` ts
 const genesisBlock: Block = new Block(
     0, '816534932c2b7154836da6afc367695e6337db8a921823784c14378abed4f7d7', null, 1465154705, 'my genesis block!!'
 );
@@ -77,7 +77,7 @@ const genesisBlock: Block = new Block(
 ## Generating a block
 To generate a block we must know the hash of the previous block and create the rest of the required content (= index, hash, data and timestamp). Block data is something that is provided by the end-user but the rest of the parameters will be generated using the following code:
 
-```
+``` ts
 const generateNextBlock = (blockData: string) => {
     const previousBlock: Block = getLatestBlock();
     const nextIndex: number = previousBlock.index + 1;
@@ -90,7 +90,7 @@ const generateNextBlock = (blockData: string) => {
 
 ## Storing the blockchain
 For now we will only use an in-memory Javascript array to store the blockchain. This means that the data will not be persisted when the node is terminated.
-```
+``` ts
 const blockchain: Block[] = [genesisBlock];
 ```
 
@@ -104,7 +104,7 @@ For a block to be valid the following must apply:
 * The `hash` of the block itself must be valid
 
 This is demonstrated with the following code:
-```
+``` ts
 const isValidNewBlock = (newBlock: Block, previousBlock: Block) => {
     if (previousBlock.index + 1 !== newBlock.index) {
         console.log('invalid index');
@@ -122,7 +122,7 @@ const isValidNewBlock = (newBlock: Block, previousBlock: Block) => {
 ```
 We must also validate the structure of the block, so that malformed content sent by a peer won’t crash our node.
 
-```
+``` ts
 const isValidBlockStructure = (block: Block): boolean => {
     return typeof block.index === 'number'
         && typeof block.hash === 'string'
@@ -133,7 +133,7 @@ const isValidBlockStructure = (block: Block): boolean => {
 ```
 Now that we have a means to validate a single block we can move on to validate a full chain of blocks. We first check that the first block in the chain matches with the `genesisBlock`. After that we validate every consecutive block using the previously described methods. This is demostrated using the following code:
 
-```
+``` ts
 const isValidChain = (blockchainToValidate: Block[]): boolean => {
     const isValidGenesis = (block: Block): boolean => {
         return JSON.stringify(block) === JSON.stringify(genesisBlock);
@@ -159,7 +159,7 @@ There should always be only one explicit set of blocks in the chain at a given t
 
 This is logic is implemented using the following code:
 
-```
+``` ts
 const replaceChain = (newBlocks: Block[]) => {
     if (isValidChain(newBlocks) && newBlocks.length > getBlockchain().length) {
         console.log('Received blockchain is valid. Replacing current blockchain with received blockchain');
@@ -184,7 +184,7 @@ We will use websockets for the peer-to-peer communication. The active sockets fo
 
 ## Controlling the node
 The user must be able to control the node in some way. This is done by setting up a HTTP server.
-```
+``` ts
 const initHttpServer = ( myHttpPort: number ) => {
     const app = express();
     app.use(bodyParser.json());
@@ -215,7 +215,7 @@ As seen, the user is able to interact with the node in the following ways:
 * Create a new block with a content given by the user
 * List or add peers
 The most straightforward way to control the node is e.g. with Curl:
-```
+``` sh
 #get all blocks from the node
 > curl http://localhost:3001/blocks
 ```
