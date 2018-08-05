@@ -7,7 +7,7 @@
 ## Todo
 - [x] Try naivecoin UI
 - [x] Remove useless content
-- [ ] Set up basic templates
+- [x] Set up basic templates
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
 - [ ] Update the part about proof of work
