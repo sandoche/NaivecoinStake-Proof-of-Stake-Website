@@ -228,4 +228,4 @@ It should be noted that the node actually exposes two web servers: One for the u
 ## Conclusions
 Naivecoin is for now a just toy “general purpose” blockchain. Moreover, this chapter shows how some of the basic principles of blockchain can be implemented in quite a simple way. In the next chapter, we will add the proof-of-stake algorithm (minting) to the naivecoin.
 
-Next (Proof of Stake) >>
+[Next (Proof of Stake) >>](/02-Proof-of-Stake)
