@@ -23,7 +23,7 @@ We will start by defining the block structure. Only the most essential propertie
 * hash: A sha256 hash taken from the content of the block
 * previousHash: A reference to the hash of the previous block. This value explicitly defines the previous block.
 
-////// IMAGE
+![Blockchain](/assets/images/blockchain.png)
 
 The code for the block structure looks like the following:
 
@@ -62,7 +62,7 @@ An important consequence of the properties `hash` and `previousHash` is that a b
 
 This is demonstrated in the example below. If the data in block 44 is changed from “DESERT” to “STREET”, all hashes of the consecutive blocks must be changed. This is because the `hash` of the block depends on the value of the `previousHash` (among other things).
 
-///// Image
+![Integrity](/assets/images/Blockchain_integrity.png)
 
 This is an especially important property when proof-of-work is introduced. The deeper the block is in the blockchain, the harder it is to modify it, since it would require modifications to every consecutive block.
 
@@ -155,7 +155,7 @@ const isValidChain = (blockchainToValidate: Block[]): boolean => {
 ## Choosing the longest chain
 There should always be only one explicit set of blocks in the chain at a given time. In case of conflicts (e.g. two nodes both generate block number 72) we choose the chain that has the longest number of blocks. In the below example, the data introduced in block 72: a350235b00 will not be included in the blockchain, since it will be overridden by the longer chain.
 
-///// image
+![Conflict resolving](/assets/images/conflict_resolving.png)
 
 This is logic is implemented using the following code:
 
@@ -178,7 +178,7 @@ An essential part of a node is to share and sync the blockchain with other nodes
 * When a node connects to a new peer it querys for the latest block
 * When a node encounters a block that has an index larger than the current known block, it either adds the block the its current chain or querys for the full blockchain.
 
-///// image
+![Network](/assets/images/p2p_communication.png)
 
 We will use websockets for the peer-to-peer communication. The active sockets for each nodes are stored in the `const sockets: WebSocket[]` variable. No automatic peer discovery is used. The locations (= Websocket URLs) of the peers must be manually added.
 
@@ -223,7 +223,7 @@ The most straightforward way to control the node is e.g. with Curl:
 ## Architecture
 It should be noted that the node actually exposes two web servers: One for the user to control the node (HTTP server) and one for the peer-to-peer communication between the nodes. (Websocket HTTP server)
 
-///// image
+![Architecture](/assets/images/naivechain_architecture.png)
 
 ## Conclusions
 Naivecoin is for now a just toy “general purpose” blockchain. Moreover, this chapter shows how some of the basic principles of blockchain can be implemented in quite a simple way. In the next chapter, we will add the proof-of-stake algorithm (minting) to the naivecoin.
