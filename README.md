@@ -8,11 +8,11 @@
 - [x] Try naivecoin UI
 - [x] Remove useless content
 - [x] Set up basic templates
+- [x] Improve style for readabilty
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
 - [ ] Check consistency and links
-- [ ] Improve style for readabilty
-- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1
+- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
 - [ ] Fill the page about and add donation informations
