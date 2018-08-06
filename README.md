@@ -24,8 +24,7 @@
 - [x] Set up domain name (naivecoinstake.learn.uno)
 - [x] Update the part about proof of stake
 - [x] Talk about what should still be done
-
-- [ ] Add responsive fixes
+- [x] Add responsive fixes
 
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code like hash calculation)
 - [ ] Remove the none from the block structure and try again
