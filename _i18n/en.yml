@@ -3,4 +3,4 @@ home:
   tutorial: Tutorial
 
 footer:
-  love: 'Made with <span class="accent">❤</span>'
+  love: 'Adapted with <span class="accent">❤</span> by <a href="http://www.sandoche.com">Sandoche</a> from <a href="https://lhartikk.github.io">Naivecoin Tutorial</a> (original work made by <a href="https://github.com/lhartikk">Lauri Hartikka</a>)'

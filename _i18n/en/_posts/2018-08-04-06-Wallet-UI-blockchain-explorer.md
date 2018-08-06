@@ -14,6 +14,8 @@ To achieve all this, we must add some additional endpoints and logic your node, 
 * Query information about blocks and transactions
 * Query information about a specific address
 
+This chapter has been copied from the original [Naivecoin tutorial](https://lhartikk.github.io) made by [Lauri Hartikka](https://github.com/lhartikk) and adapted for the Proof of Stake consensus. See the original page here: [https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html](https://lhartikk.github.io/jekyll/update/2017/07/09/chapter6.html)
+
 ## New endpoints
 Let’s add an endpoint from which the user can query a specific block, if the hash is known.
 ``` ts

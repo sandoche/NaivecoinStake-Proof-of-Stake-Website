@@ -16,6 +16,8 @@ As a consequence, the nodes will now share two types of data when they communica
 * the state of the blockchain ( =the blocks and transactions that are included to the blockchain)
 * unconfirmed transactions ( =the transactions that are not yet included in the blockchain)
 
+This chapter has been copied from the original [Naivecoin tutorial](https://lhartikk.github.io) made by [Lauri Hartikka](https://github.com/lhartikk) and adapted for the Proof of Stake consensus. See the original page here: [https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html](https://lhartikk.github.io/jekyll/update/2017/07/10/chapter5.html)
+
 ## Transaction pool
 We will store our unconfirmed transactions in a new entity called “transaction pool” (also known as “mempool” in bitcoin). Transaction pool is a structure that contains all of the “unconfirmed transactions” our node know of. In this simple implementation we will just use a list.
 ``` ts

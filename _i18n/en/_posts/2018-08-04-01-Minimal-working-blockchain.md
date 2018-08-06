@@ -14,6 +14,8 @@ The basic concept of blockchain is quite simple: a distributed database that mai
 * Blockchain nodes that communicate and sync the blockchain with other nodes
 * A simple HTTP API to control the node
 
+This chapter has been copied from the original [Naivecoin tutorial](https://lhartikk.github.io) made by [Lauri Hartikka](https://github.com/lhartikk) and adapted for the Proof of Stake consensus. See the original page here: [https://lhartikk.github.io/jekyll/update/2017/07/14/chapter1.html](https://lhartikk.github.io/jekyll/update/2017/07/14/chapter1.html)
+
 ## Block structure
 We will start by defining the block structure. Only the most essential properties are included at the block at this point.
 

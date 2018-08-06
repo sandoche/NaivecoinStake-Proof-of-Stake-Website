@@ -13,8 +13,8 @@
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
 - [x] Update configs, package.json, and config-pwa
 
-- [ ] Add paragraph about the changed content
-- [x] Give credit in the footer and the homepage to the creator (and every beggining of article?)
+- [x] Give credit in each article
+- [x] Give credit in the footer and the homepage to the creator
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
 - [ ] Remove the about page

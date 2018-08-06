@@ -11,6 +11,8 @@ In this chapter we will introduce the concept of transactions. With this modific
 
 To enable all this, a lot of new concepts must presented. This includes public-key cryptography, signatures and transactions inputs and outputs.
 
+This chapter has been copied from the original [Naivecoin tutorial](https://lhartikk.github.io) made by [Lauri Hartikka](https://github.com/lhartikk) and adapted for the Proof of Stake consensus. See the original page here: [https://lhartikk.github.io/jekyll/update/2017/07/12/chapter3.html](https://lhartikk.github.io/jekyll/update/2017/07/12/chapter3.html)
+
 ## Public-key cryptography and signatures
 In Public-key cryptography you have a keypair: a secret key and a public key. The public key can be derived from the secret key, but the secret key cannot be derived from the public key. The public key (as the name implies) can be shared safely to anyone.
 
