@@ -21,11 +21,10 @@
 - [x] Add github icons to the links in navbar
 - [x] Add Analytics
 - [x] Add Learn.uno contact widget
+- [x] Set up domain name (naivecoinstake.learn.uno)
+- [x] Update the part about proof of stake
+- [x] Talk about what should still be done
 
-- [ ] Set up domain name (naivecoinstake.learn.uno)
-
-- [ ] Update the part about proof of work
-- [ ] Talk about what should still be done
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code like hash calculation)
 - [ ] Remove the none from the block structure and try again
 - [ ] Check consistency and links
@@ -37,5 +36,6 @@
 - [ ] Add to google webmaster tools
 
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
+- [ ] Contact the founder
 - [ ] Put code open source
 - [ ] Add Tags & descriptions to repositories
