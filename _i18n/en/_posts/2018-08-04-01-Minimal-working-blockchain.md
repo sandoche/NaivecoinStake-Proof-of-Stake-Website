@@ -214,6 +214,7 @@ As seen, the user is able to interact with the node in the following ways:
 * List all blocks
 * Create a new block with a content given by the user
 * List or add peers
+
 The most straightforward way to control the node is e.g. with Curl:
 ``` sh
 #get all blocks from the node

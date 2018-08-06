@@ -11,6 +11,7 @@
 - [x] Improve style for readabilty
 - [ ] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
+- [ ] Give credit in the footer and the homepage to the creator (and every beggining of article?)
 - [ ] Check consistency and links
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
 - [ ] Update the part about proof of work
@@ -18,7 +19,6 @@
 - [ ] Fill the page about and add donation informations
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
-- [ ] Give credit in the footer and the homepage to the creator (and every beggining of article?)
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
 - [ ] Set up domain name (naivecoinstake.learn.uno)
 - [ ] Delete useless branches of naivecoin and rename repository
