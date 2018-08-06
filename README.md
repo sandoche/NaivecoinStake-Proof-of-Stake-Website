@@ -14,10 +14,11 @@
 - [x] Update configs, package.json, and config-pwa
 
 - [ ] Add paragraph about the changed content
-- [ ] Give credit in the footer and the homepage to the creator (and every beggining of article?)
+- [x] Give credit in the footer and the homepage to the creator (and every beggining of article?)
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
 - [ ] Remove the about page
+- [ ] Improve the design
 
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
