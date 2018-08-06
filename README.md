@@ -19,15 +19,15 @@
 - [x] Add respository links to the navbar
 - [x] Remove the about page
 - [x] Add github icons to the links in navbar
+- [x] Add Analytics
+- [x] Add Learn.uno contact widget
+
+- [ ] Set up domain name (naivecoinstake.learn.uno)
 
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
 - [ ] Check consistency and links
-
-- [ ] Set up domain name (naivecoinstake.learn.uno)
-- [x] Add Analytics
-- [x] Add Learn.uno contact widget
 
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
