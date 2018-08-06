@@ -6,7 +6,7 @@ layout: blog
 ---
 
 
-Most of this amazing work has been done by [Lauri Hartikka](https://lhartikk.github.io/), find the original tutorial here: [https://lhartikk.github.io](https://lhartikk.github.io) 👏
+Most of this amazing work has been done by [Lauri Hartikka](https://github.com/lhartikk), find the original tutorial here: [https://lhartikk.github.io](https://lhartikk.github.io) 👏
 
 I copied his tutorial for learning purpose, and I only replaced the "Proof of Work (mining)" consensus with "Proof of Stake (minting)". The reason why is pretty simple, Proof of Work is always criticized for using a lot of energy, and Proof of Stake is always showed as an energy efficient alternative 🌳
 

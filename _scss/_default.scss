@@ -273,7 +273,7 @@ h1, h2, h3, h4 {
 
   &__container {
     @include container($container-padding);
-    color: $link-color;
+    color: $light-grey-color;
   }
 
 }
