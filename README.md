@@ -16,10 +16,10 @@
 - [x] Give credit in the footer and the homepage to the creator
 - [x] Add my name in footer
 - [x] Improve the design
+- [x] Add respository links to the navbar
+- [x] Remove the about page
 
-- [ ] Add respository links to the navbar
-- [ ] Remove the about page
-
+- [ ] Add github icons to the links in navbar
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
@@ -35,3 +35,4 @@
 - [ ] Add to google webmaster tools
 - [ ] Add Learn.uno contact widget
 - [ ] Put code open source
+- [ ] Add Tags & descriptions to repositories
