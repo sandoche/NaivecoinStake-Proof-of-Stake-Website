@@ -9,7 +9,7 @@
 - [x] Remove useless content
 - [x] Set up basic templates
 - [x] Improve style for readabilty
-- [ ] Add basic content of the tutorial
+- [x] Add basic content of the tutorial
 - [ ] Add paragraph about the changed content
 - [ ] Give credit in the footer and the homepage to the creator (and every beggining of article?)
 - [ ] Check consistency and links
@@ -30,3 +30,4 @@
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
 - [ ] Add to google webmaster tools
 - [ ] Add Learn.uno contact widget
+- [ ] Put code open source
