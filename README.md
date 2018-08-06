@@ -12,13 +12,13 @@
 - [x] Add basic content of the tutorial
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
 - [x] Update configs, package.json, and config-pwa
-
 - [x] Give credit in each article
 - [x] Give credit in the footer and the homepage to the creator
-- [ ] Add my name in footer
+- [x] Add my name in footer
+- [x] Improve the design
+
 - [ ] Add respository links to the navbar
 - [ ] Remove the about page
-- [x] Improve the design
 
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
