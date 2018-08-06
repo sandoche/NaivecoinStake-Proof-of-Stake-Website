@@ -4,10 +4,12 @@ layout: default
 
 <div class="blog">
 
+  <h1 class="home__title">{% t home.title %}</h1>
   <div class="blog__intro">
     {{ content }}
-  </div>
+  </div> 
 
+  <h2 class="home__title">{% t home.tutorial %}</h2>
   {% for post in site.posts %}
     <article class="blog__post">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

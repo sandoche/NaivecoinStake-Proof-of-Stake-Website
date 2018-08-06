@@ -18,7 +18,7 @@
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
 - [ ] Remove the about page
-- [ ] Improve the design
+- [x] Improve the design
 
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done

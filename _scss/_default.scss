@@ -143,23 +143,14 @@ h1, h2, h3, h4 {
 }
 
 .home {
-
-  @include container($container-padding);
-
-  height: 65vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-
-  &__headline-container {
-    padding: 0 $container-padding * 3;
+  &__title {
+    color: $light-grey-color;
+    font-family: $secondary-font-family;
+    font-size: $font-md;
+    padding: 0 32px;
+    font-weight: 400;
+    line-height: 1.5;
   }
-
-  &__headline {
-    font-size: $font-xl;
-  }
-
 }
 
 
@@ -186,9 +177,13 @@ h1, h2, h3, h4 {
   &__intro {
     color: $light-grey-color;
     font-family: $secondary-font-family;
-    font-size: $font-md;
-    padding: 0 32px;
+    font-size: $font-sm;
+    padding: 16px 32px;
     margin-bottom: 64px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 9px;
+    margin-top: 48px;
+    line-height: 1.5;
   }
 
   &__post {

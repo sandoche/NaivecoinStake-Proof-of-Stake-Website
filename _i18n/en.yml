@@ -1,9 +1,6 @@
 home:
-  header:
-    headline: Your beautiful headline
-    call_to_action:
-      title: Check out our blog
-      link: /blog
+  title: Naivecoin Stake is a tutorial to build from scratch a cryptocurrency using the Proof of Stake consensus.
+  tutorial: Tutorial
 
 footer:
   love: 'Made with <span class="accent">❤</span>'

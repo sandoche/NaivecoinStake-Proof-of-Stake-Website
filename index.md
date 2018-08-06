@@ -5,7 +5,6 @@
 layout: blog
 ---
 
-Naivecoin Stake is a tutorial to build from scratch a cryptocurrency using the Proof of Stake consensus.
 
 Most of this amazing work has been done by [Lauri Hartikka](https://lhartikk.github.io/), find the original tutorial here: [https://lhartikk.github.io](https://lhartikk.github.io) 👏
 
