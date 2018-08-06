@@ -18,6 +18,7 @@
 - [ ] Fill the page about and add donation informations
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
+- [ ] Give credit in the footer and the homepage to the creator
 - [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
 - [ ] Set up domain name (naivecoinstake.learn.uno)
 - [ ] Delete useless branches of naivecoin and rename repository
