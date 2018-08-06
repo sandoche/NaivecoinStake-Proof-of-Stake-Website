@@ -26,7 +26,8 @@
 
 - [ ] Update the part about proof of work
 - [ ] Talk about what should still be done
-- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
+- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code like hash calculation)
+- [ ] Remove the none from the block structure and try again
 - [ ] Check consistency and links
 
 - [ ] Delete useless branches of naivecoin and rename repository
