@@ -62,3 +62,7 @@ For the wallet UI we will also create a similar website as in the case of blockc
 A screenshot from the wallet:
 
 ![Wallet UI](/assets/images/wallet_ui.png)
+
+## Conclusion
+
+Find the full source code of the UI here: [https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-UI](https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-UI)

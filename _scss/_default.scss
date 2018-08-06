@@ -81,6 +81,11 @@ h1, h2, h3, h4 {
   color: $primary-color;
 }
 
+.svg-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
 
 // Components & pages
 
@@ -134,6 +139,9 @@ h1, h2, h3, h4 {
   &__link {
     margin-left: 30px;
     font-size: $font-sm;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
     &--active {
       text-decoration: underline;

@@ -152,4 +152,6 @@ As it can be seen, we need to know only the current unspent transaction outputs 
 ## Conclusions
 We can now include transactions to the blockchain without actually having to mine the blocks themselves. There is however no incentive for the nodes to include a received transaction to the block as we did not implement the concept of transaction fees.
 
+Find the full source code here: [https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-Core](https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-Core)
+
 [Next (Wallet UI and blockchain explorer) >>](/06-Wallet-UI-blockchain-explorer/)
