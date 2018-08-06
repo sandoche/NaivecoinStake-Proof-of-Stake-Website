@@ -27,7 +27,7 @@
 - [x] Add responsive fixes
 
 - [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code like hash calculation)
-- [ ] Remove the none from the block structure and try again
+- [ ] Remove the nonce from the block structure and try again
 - [ ] Check consistency and links
 
 - [ ] Delete useless branches of naivecoin and rename repository
