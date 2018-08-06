@@ -33,7 +33,7 @@
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
 - [ ] Update copyright notice (of the 3 repos)
-- [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and license
+- [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and all the licenses
 - [ ] Add to google webmaster tools
 
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews

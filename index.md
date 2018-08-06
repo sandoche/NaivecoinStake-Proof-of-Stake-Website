@@ -12,4 +12,5 @@ I copied his tutorial for learning purpose, and I only replaced the "Proof of Wo
 
 Since I didn't find any tutorial for a Proof of Stake (PoS) implementation, I decided to investigate myself and implement it into a fork of [Naivecoin](https://github.com/lhartikk/naivecoin). 
 
-This implementation of the Proof of Stake concensus is very simple and therefore cannot be used in production.
+This implementation of the Proof of Stake consensus is very simple and therefore cannot be used in production.
+Also, keep in mind that this tutorial is not perfect, so feel free to contribute the [source is open](https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-Website).
