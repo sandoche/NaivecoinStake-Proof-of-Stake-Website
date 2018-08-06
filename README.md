@@ -26,8 +26,8 @@
 - [ ] Check consistency and links
 
 - [ ] Set up domain name (naivecoinstake.learn.uno)
-- [ ] Add Analytics
-- [ ] Add Learn.uno contact widget
+- [x] Add Analytics
+- [x] Add Learn.uno contact widget
 
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
