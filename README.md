@@ -10,22 +10,25 @@
 - [x] Set up basic templates
 - [x] Improve style for readabilty
 - [x] Add basic content of the tutorial
+- [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
+- [x] Update configs, package.json, and config-pwa
+
 - [ ] Add paragraph about the changed content
 - [ ] Give credit in the footer and the homepage to the creator (and every beggining of article?)
-- [ ] Check consistency and links
-- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
-- [ ] Update the part about proof of work
-- [ ] Talk about what should still be done
-- [ ] Fill the page about and add donation informations
 - [ ] Add my name in footer
 - [ ] Add respository links to the navbar
-- [x] Define a name (NaivecoinStake, a tutorial for building a Proof of Stake cryptocurrency)
+- [ ] Remove the about page
+
+- [ ] Update the part about proof of work
+- [ ] Talk about what should still be done
+- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code)
+- [ ] Check consistency and links
+
 - [ ] Set up domain name (naivecoinstake.learn.uno)
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
 - [ ] Update copyright notice
 - [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and license
-- [x] Update configs, package.json, and config-pwa
 - [ ] Add Analytics
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
 - [ ] Add to google webmaster tools
