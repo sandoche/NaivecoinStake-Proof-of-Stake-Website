@@ -42,14 +42,13 @@ class Block {
     public minterAddress: string;
 
     constructor(index: number, hash: string, previousHash: string,
-                timestamp: number, data: Transaction[], difficulty: number, nonce: number, minterBalance: number, minterAddress: string) {
+                timestamp: number, data: Transaction[], difficulty: number, minterBalance: number, minterAddress: string) {
         this.index = index;
         this.previousHash = previousHash;
         this.timestamp = timestamp;
         this.data = data;
         this.hash = hash;
         this.difficulty = difficulty;
-        this.nonce = nonce;
         this.minterBalance = minterBalance;
         this.minterAddress = minterAddress;
     }
@@ -103,18 +102,15 @@ Also, note that it's still possible for nodes to cheat by changing the timestamp
 As describe above, to find a block we need to try the puzzle every second. It is done with by the following code:
 ``` ts
 const findBlock = (index: number, previousHash: string, data: Transaction[], difficulty: number): Block => {
-    let nonce = 0;
     let pastTimestamp: number = 0;
     while (true) {
         let timestamp: number = getCurrentTimestamp();
-        // Since the nonce it's not changing we should calculate the hash only each second
         if(pastTimestamp !== timestamp) {
             let hash: string = calculateHash(index, previousHash, timestamp, data, difficulty, getAccountBalance(), getPublicFromWallet());
             if (isBlockStakingValid(previousHash, getPublicFromWallet(), timestamp, getAccountBalance(), difficulty, index)) {
-                return new Block(index, hash, previousHash, timestamp, data, difficulty, nonce, getAccountBalance(), getPublicFromWallet());
+                return new Block(index, hash, previousHash, timestamp, data, difficulty, getAccountBalance(), getPublicFromWallet());
             }
             pastTimestamp = timestamp;
-            nonce++;
         }
     }
 };
