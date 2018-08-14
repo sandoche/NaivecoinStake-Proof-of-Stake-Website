@@ -231,7 +231,7 @@ The coinbase transaction contains only an output, but no inputs. This means that
 ``` ts
 const COINBASE_AMOUNT: number = 50;
 ```
-The coinbase transaction is always the first transaction in the block and it is included by the miner of the block. The coinbase reward acts as an incentive for the miners: if you find the block, you are able to collect 50 coins.
+The coinbase transaction is always the first transaction in the block and it is included by the minter of the block. The coinbase reward acts as an incentive for the nodes: if you find the block, you are able to collect 50 coins.
 
 We will add the block height to input of the coinbase transaction. This is to ensure that each coinbase transaction has a unique txId. Without this rule, for instance, a coinbase transaction stating “give 50 coins to address 0xabc” would always have the same txId.
 
@@ -266,7 +266,6 @@ We included the concept of transactions to the blockchain. The basic idea is qui
 
 However, creating transactions is still very difficult. We must manually create the inputs and outputs of the transactions and sign them using our private keys. This will change when we introduce wallets in the next chapter.
 
-There is also no transaction relaying yet: to include a transaction to the blockchain, you must mine it yourself. This is also the reason we did not yet introduce the concept of transaction fee.
-
+There is also no transaction relaying yet: to include a transaction to the blockchain, you must mint it yourself. This is also the reason we did not yet introduce the concept of transaction fee.
 
 [Next (Wallet) >>](/04-Wallet)

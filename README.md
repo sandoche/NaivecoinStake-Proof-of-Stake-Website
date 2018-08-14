@@ -28,17 +28,16 @@
 - [x] Remove the nonce from the block structure and try again
 - [x] Update 'isValidBlockStructure' in naivecoin
 - [x] Update naivecoin ui endpoints, readme, test it and update the repository name and all the licenses
+- [x] Test with two nodes
 
-- [ ] Test with two nodes
-
-- [ ] Check consistency and links
-- [ ] Delete useless branches of naivecoin and rename repository
+- [x] Check consistency and links
 - [ ] Update naivecoin's Readme
+- [ ] Update naivecoin's UI Readme
+- [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update copyright notice (of the 3 repos)
-
 - [ ] Add to google webmaster tools
-
+- [ ] Add Tags & descriptions to repositories
+- [ ] Put code open source
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
 - [ ] Contact the founder
-- [ ] Put code open source
-- [ ] Add Tags & descriptions to repositories
+

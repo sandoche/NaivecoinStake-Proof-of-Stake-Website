@@ -194,7 +194,7 @@ const initHttpServer = ( myHttpPort: number ) => {
     app.get('/blocks', (req, res) => {
         res.send(getBlockchain());
     });
-    app.post('/mineBlock', (req, res) => {
+    app.post('/mintBlock', (req, res) => {
         const newBlock: Block = generateNextBlock(req.body.data);
         res.send(newBlock);
     });

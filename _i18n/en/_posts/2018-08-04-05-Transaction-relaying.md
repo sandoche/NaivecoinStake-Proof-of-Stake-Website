@@ -7,9 +7,9 @@ author: Sandoche ADITTANE
 ---
 
 ## Overview
-In this chapter we will implement the relaying of such transactions, that are not yet included in the blockchain. In bitcoin, these transaction are also known as “unconfirmed transactions”. Typically, when someone wants to include a transaction to the blockchain (= send coins to some address ) he broadcasts the transaction to the network and hopefully some node will mine the transaction to the blockchain.
+In this chapter we will implement the relaying of such transactions, that are not yet included in the blockchain. In bitcoin, these transaction are also known as “unconfirmed transactions”. Typically, when someone wants to include a transaction to the blockchain (= send coins to some address ) he broadcasts the transaction to the network and hopefully some node will mint the transaction to the blockchain.
 
-This feature is very important for a working cryptocurrency, since it means you don’t need to mine a block yourself, in order to include a transaction to the blockchain.
+This feature is very important for a working cryptocurrency, since it means you don’t need to mint a block yourself, in order to include a transaction to the blockchain.
 
 As a consequence, the nodes will now share two types of data when they communicate with each other:
 
@@ -30,7 +30,7 @@ We will also introduce a new endpoint to our node: POST /sendTransaction. This m
         ...
     })
 ```
-We create the transaction just like we did in chapter4. We just add the created transaction to the pool instead of instantly trying to mine a block:
+We create the transaction just like we did in chapter4. We just add the created transaction to the pool instead of instantly trying to mint a block:
 ``` ts
 const sendTransaction = (address: string, amount: number): Transaction => {
     const tx: Transaction = createTransaction(address, amount, getPrivateFromWallet(), getUnspentTxOuts(), getTransactionPool());
@@ -39,7 +39,7 @@ const sendTransaction = (address: string, amount: number): Transaction => {
 };
 ```
 ## Broadcasting
-The whole point of the unconfirmed transactions are that they will spread throughout the network and eventually some node will mine the transaction to the blockchain. To handle this we will introduce the following simple rules for the networking of unconfirmed transactions:
+The whole point of the unconfirmed transactions are that they will spread throughout the network and eventually some node will mint the transaction to the blockchain. To handle this we will introduce the following simple rules for the networking of unconfirmed transactions:
 
 * When a node receives an unconfirmed transaction it has not seen before, it will broadcast the full transaction pool to all peers.
 * When a node first connects to another node, it will query for the transaction pool of that node.
@@ -113,7 +113,7 @@ const isValidTxForPool = (tx: Transaction, aTtransactionPool: Transaction[]): bo
 There is no explicit way to remove a transaction from the transaction pool. The transaction pool will however be updated each time a new block is found.
 
 ## From transaction pool to blockchain
-Let’s next implement a way for the unconfirmed transaction to find its way from the local transaction pool to a block mined by the same node. This is simple: when a node starts to mine a block, it will include the transactions from the transaction pool to the new block candidate.
+Let’s next implement a way for the unconfirmed transaction to find its way from the local transaction pool to a block minted by the same node. This is simple: when a node starts to mint a block, it will include the transactions from the transaction pool to the new block candidate.
 ``` ts
 const generateNextBlock = () => {
     const coinbaseTx: Transaction = getCoinbaseTransaction(getPublicFromWallet(), getLatestBlock().index + 1);
@@ -124,9 +124,9 @@ const generateNextBlock = () => {
 As the transactions are already validated, before they are added to the pool, we are not doing any further validations at this points.
 
 ## Updating the transaction pool
-As new blocks with transactions are mined to the blockchain, we must revalidate the transaction pool every time a new block is found. It is possible that the new block contains transactions that makes some of the transactions in the pool invalid. This can happen if for instance:
+As new blocks with transactions are minted to the blockchain, we must revalidate the transaction pool every time a new block is found. It is possible that the new block contains transactions that makes some of the transactions in the pool invalid. This can happen if for instance:
 
-* The transaction that was in the pool was mined (by the node itself or by someone else)
+* The transaction that was in the pool was minted (by the node itself or by someone else)
 * The unspent transaction output that is referred in the unconfirmed transaction is spent by some other transaction
 
 The transaction pool will be updated with the following code:
@@ -150,7 +150,7 @@ const updateTransactionPool = (unspentTxOuts: UnspentTxOut[]) => {
 As it can be seen, we need to know only the current unspent transaction outputs to make the decision if a transaction should be removed from the pool.
 
 ## Conclusions
-We can now include transactions to the blockchain without actually having to mine the blocks themselves. There is however no incentive for the nodes to include a received transaction to the block as we did not implement the concept of transaction fees.
+We can now include transactions to the blockchain without actually having to mint the blocks themselves. There is however no incentive for the nodes to include a received transaction to the block as we did not implement the concept of transaction fees.
 
 Find the full source code here: [https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-Core](https://github.com/sandoche/NaivecoinStake-Proof-of-Stake-Core)
 
