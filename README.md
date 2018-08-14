@@ -47,8 +47,8 @@ Most of this amazing work has been done by Lauri Hartikka, find the original tut
 - [x] Add to google webmaster tools
 - [x] Add Tags & descriptions to repositories
 - [x] Update doc repo
-- [ ] Put code open source
+- [x] Put code open source
+- [x] Contact the founder
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
-- [ ] Contact the founder
-- [ ] Delete the todo list
+- [x] Delete the todo list
 
