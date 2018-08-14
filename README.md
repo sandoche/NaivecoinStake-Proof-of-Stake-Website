@@ -25,15 +25,17 @@
 - [x] Update the part about proof of stake
 - [x] Talk about what should still be done
 - [x] Add responsive fixes
+- [x] Remove the nonce from the block structure and try again
+- [x] Update 'isValidBlockStructure' in naivecoin
+- [x] Update naivecoin ui endpoints, readme, test it and update the repository name and all the licenses
 
-- [ ] Remove the nonce from the block structure and try again
-- [ ] Update 'isValidBlockStructure' in naivecoin and tutorial chap 1 (and other code like hash calculation)
+- [ ] Test with two nodes
+
 - [ ] Check consistency and links
-
 - [ ] Delete useless branches of naivecoin and rename repository
 - [ ] Update naivecoin's Readme
 - [ ] Update copyright notice (of the 3 repos)
-- [ ] Update naivecoin ui endpoints, readme, test it and update the repository name and all the licenses
+
 - [ ] Add to google webmaster tools
 
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
