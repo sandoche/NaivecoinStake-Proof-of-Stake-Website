@@ -29,15 +29,15 @@
 - [x] Update 'isValidBlockStructure' in naivecoin
 - [x] Update naivecoin ui endpoints, readme, test it and update the repository name and all the licenses
 - [x] Test with two nodes
-
 - [x] Check consistency and links
-- [ ] Update naivecoin's Readme
-- [ ] Update naivecoin's UI Readme
-- [ ] Delete useless branches of naivecoin and rename repository
+- [x] Update naivecoin's Readme
+- [x] Update naivecoin's UI Readme
+- [x] Delete useless branches of naivecoin and rename repository
 - [ ] Update copyright notice (of the 3 repos)
 - [ ] Add to google webmaster tools
 - [ ] Add Tags & descriptions to repositories
 - [ ] Put code open source
 - [ ] Communicate about this website in Reddit, Bitcointalk, Hackernews
 - [ ] Contact the founder
+- [ ] Delete the todo list
 
