@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.sandoche.naivecoinstake",
+               "sha256_cert_fingerprints": ["21:14:83:A2:D1:BB:1B:0F:C5:7B:43:6B:29:96:D8:B6:04:9E:42:A3:93:72:91:C3:76:D4:44:D1:92:CA:65:C8"] }
+}]
