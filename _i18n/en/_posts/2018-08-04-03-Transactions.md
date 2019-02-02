@@ -268,4 +268,4 @@ However, creating transactions is still very difficult. We must manually create 
 
 There is also no transaction relaying yet: to include a transaction to the blockchain, you must mint it yourself. This is also the reason we did not yet introduce the concept of transaction fee.
 
-[Next (Wallet) >>](/04-Wallet)
+[Next (Wallet) >>](/04-Wallet/)

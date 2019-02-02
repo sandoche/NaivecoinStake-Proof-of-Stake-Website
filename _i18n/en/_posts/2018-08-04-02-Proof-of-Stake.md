@@ -187,4 +187,4 @@ The Proof of Stake consensus is a quite interesting alternative to the Proof of 
 
 Also, in the current implementation, the account balance is not calculated based on the blockchain but written and read from the chain itself (for simplification purpose since I was mostly interested about the puzzle itself). It is not good at all and should be solved!
 
-[Next (Transactions) >>](/03-Transactions)
+[Next (Transactions) >>](/03-Transactions/)
