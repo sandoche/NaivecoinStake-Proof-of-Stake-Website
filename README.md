@@ -1,8 +1,6 @@
-# Naivecoin-Proof-of-Stake-Website
+# Sandoche-Website
 
-A tutorial for building a Proof of Stake cryptocurrency: https://naivecoinstake.learn.uno
-
-Most of this amazing work has been done by Lauri Hartikka, find the original tutorial here: https://lhartikk.github.io 👏
+My portfolio redesigned quickly for a better maintanability
 
 ## Prerequisites The following tools should be installed before starting:
 * NodeJS, npm, yarn
